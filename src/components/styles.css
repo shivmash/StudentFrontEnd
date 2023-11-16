@@ -1,0 +1,79 @@
+nav {
+  background: linear-gradient(
+    to top,
+    rgb(212, 192, 217),
+    rgb(169, 130, 180),
+    rgb(100, 61, 110)
+  );
+}
+
+/* navbar ends */
+
+input,
+label {
+  display: inline;
+  border-color: grey;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+}
+img {
+  display: block;
+  height: 290px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#heading {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+#submit {
+  display: block;
+  padding: 18px;
+  width: 100px;
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  border-color: green;
+  border-radius: 15%;
+}
+/* ...Form Ends ... */
+
+ul {
+  padding-left: 0%;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+table,
+tr,
+th,
+td {
+  margin: 5px;
+  padding: 10px;
+}
+
+.footer-container {
+  background-color: rgba(127, 255, 212, 0.874);
+  max-width: 100%;
+}
+.layout-container {
+  background-color: rgb(220, 245, 245);
+}
+
+.footer-form {
+  margin-left: 50px;
+  margin-top: 30px;
+  padding-left: 50px;
+}
